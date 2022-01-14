@@ -65,3 +65,19 @@ L.append(c) -- append c to the end of L -- amortised O(1)
 L.pop() -- extracts and returns the last element of L -- amortised O(1)
 
 ```
+## code1
+```
+for index in range(len(L)):
+    value = L[index]
+    # ... handling of index and value
+```
+## code2
+```
+for index, value in enumerate(L):
+    # ... handling of index and value
+```
+## code 3
+```
+for key, value in dic.items():
+    # ... handling of key and value
+```
