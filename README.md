@@ -31,4 +31,6 @@ also generate this message, such as the use of assert in Java, which is often no
 accepted.
 #### join
 ```
-‘-’.join([’A’,’B’,’C’]) ``` returns the string “A-B-C” .
+‘-’.join([’A’,’B’,’C’])  returns the string “A-B-C” .
+
+```
