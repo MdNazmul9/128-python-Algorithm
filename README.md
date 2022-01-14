@@ -37,3 +37,18 @@ accepted.
 #### Container
 The principal complex data structures are dictionaries, sets, lists and n-tuples. These
 structures are called containers
+
+### List
+```
+The following expressions have a complexity linear in the length of L, with
+the exception of the first, which is in constant time.
+L[i]  the i th element of L
+L[i:j] the list of elements with indices starting at i and up to (but not including) j
+L[:j] the first j elements
+L[i:] all the elements from the i th onwards
+L[-3:] the last three elements of L
+L[i:j:k] elements from the i th up to (but not including) the j th, taking only every k th element
+L[::2] the elements of L with even indices
+L[::-1] a reverse copy of L
+
+```
