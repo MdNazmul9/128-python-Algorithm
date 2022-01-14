@@ -34,3 +34,6 @@ accepted.
 ‘-’.join([’A’,’B’,’C’])  returns the string “A-B-C” .
 
 ```
+#### Container
+The principal complex data structures are dictionaries, sets, lists and n-tuples. These
+structures are called containers
