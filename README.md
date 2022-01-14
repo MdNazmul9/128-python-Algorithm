@@ -29,3 +29,6 @@ Runtime Error In general, this could be a division by zero, an access beyond the
 limits of an array, or a pop() on an empty stack. However, other situations can
 also generate this message, such as the use of assert in Java, which is often not
 accepted.
+#### join
+```
+‘-’.join([’A’,’B’,’C’]) ``` returns the string “A-B-C” .
