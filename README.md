@@ -81,3 +81,11 @@ for index, value in enumerate(L):
 for key, value in dic.items():
     # ... handling of key and value
 ```
+## Code 3
+```
+def all_pairs(L):
+    n = len(L)
+    for i in range(n):
+        for j in range(i + 1, n):
+            yield (L[i], L[j])
+```
