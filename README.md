@@ -51,4 +51,17 @@ L[i:j:k] elements from the i th up to (but not including) the j th, taking only 
 L[::2] the elements of L with even indices
 L[::-1] a reverse copy of L
 
+The most important methods of a list for our usage are listed below. Their
+complexity is expressed in terms of n, the length of the list L . A function has
+constant amortised complexity if, for several successive calls to it, the average
+complexity is constant, even if some of these calls take a time linear in n.
+
+len(L) -- returns the number of elements of the list L -- O(1)
+sorted(L) -- returns a sorted copy of the list L -- O(n log n)
+L.sort() -- sorts L in place -- O(n log n)
+L.count(c)-- the number of occurrences of c in L -- O(n)
+c in L -- is the element c found in L ? -- O(n)
+L.append(c) -- append c to the end of L -- amortised O(1)
+L.pop() -- extracts and returns the last element of L -- amortised O(1)
+
 ```
