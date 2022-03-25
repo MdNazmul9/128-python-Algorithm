@@ -14,8 +14,7 @@ while True:
     M = int(input())
     
     # a,b,M = map(int, input().split())
-    # Fast exponential
-    # pow(b, p, m) works too
+    
     print(bigMod(a,b,M))
     input()
   except(EOFError):
