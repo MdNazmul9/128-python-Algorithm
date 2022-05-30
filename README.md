@@ -1,3 +1,7 @@
+
+# python prog.py < test.in > test.out
+# python prog.py < test.in
+
 # 128-python-Algorithm
 ##### The inputs to the problems are called instances.
 #### Accepted
